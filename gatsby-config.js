@@ -10,7 +10,7 @@ module.exports = {
       options: {
         isTSX: true, // defaults to false
         //jsxPragma: `jsx`, // defaults to "React" ??
-        allExtensions: true
+        allExtensions: true,
       },
     },
     {
@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/content/images`,
+        path: `${__dirname}src/content/images`,
       },
     },
     `gatsby-transformer-sharp`,
